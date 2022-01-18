@@ -1,23 +1,31 @@
 # Backend Interview Preparation
 
-   Index
+Index
 
-   + Backend API best practices
-   + Agile
-   + AWS
-      + Application deployment
-         + Beanstalk
-         + EKS
-         + VPC & Networking
-            + Route53
-         + SQS
-         + SNS
-         + EC2 fleet
-         + High availability & scalability
-         + Beanstalk
-         + S3
-         + CloudFront
-         + Elastic Load Balancer
++ Data structures & algorithms
+   + FIFO n LIFO
+   + Stackoverflow
+   + Tail recursive n!
+   + REPL (?)
+   + Memory leaks
+   + PRNG
+   + Garbage collection
+   + Sorting huge files
+   + Simple web server
+   + Graph
+      + Tree
+      + BFS
+      + DFS
+      + Dijkstra’s
+   + Language
+      + [PHP](languages/php.md)
+      + Go
+         + Buffered channels vs Unbuffered channels
+   + Concurrency
+      + Race conditions
+      + Deadlocks
+      + Process starvation
+   + SQL
    + Database
       + Common topics / problems
          + ACID
@@ -32,14 +40,27 @@
             + NoSQL & Scalability
          + MongoDB
          + Redis
-   + Frameworks
-      + Laravel*
-      + Symfony
-   + Caching
-      + [Caching Strategies](caching/strategies.md)
+   + Git
+      + Difference between fetch & pull
+      + What is git rebase
+      + What is upstream
    + Server
       + Deployment
       + Linux basic usage
+   + Frameworks
+      + Laravel*
+      + Symfony
+      + Falcon
+   + Backend API best practices
+   + [S.O.L.I.D](solid.md)
+   + Code design
+      + TDD
+      + Coupling
+      + Early testing
+      + OOP
+   + Design patterns
+      + Inheritance vs composition
+      + Singleton
    + System Design
       + Latency & Throughput
       + Client Server Model
@@ -51,31 +72,36 @@
       + Logging & Monitoring
       + MapReduce
       + Pub/Sub
-   + Code design
-      + TDD
-      + Coupling
-      + Early testing
-      + OOP
-   + [S.O.L.I.D](solid.md)
-   + Design patterns
-      + Inheritance vs composition
-      + Singleton
-   + Language
-      + PHP
-      + Go
-         + Buffered channels vs Unbuffered channels
-   + Git
-      + Difference between fetch & pull
-      + What is git rebase
-      + What is upstream
-   + SQL
+   + AWS
+      + [Systems Manager](aws/ssm.md) 
+      + Beanstalk
+      + EKS
+      + VPC & Networking
+         + Route53
+      + SQS
+      + SNS
+      + EC2 fleet
+      + High availability & scalability
+      + Beanstalk
+      + S3
+      + CloudFront
+      + Elastic Load Balancer
+   + Caching
+      + [Caching Strategies](caching/strategies.md)
    + Kafka
    + Prometheus
    + Grafana
-   + Concurrency
-      + Race conditions
-      + Deadlocks
-      + Process starvation
+   + Docker
+   + Kubernetes
+      + K8s
+         + SSL on k8s
+         + Node
+         + ConfigMap
+         + Cluster
+         + Pod
+         + Master
+         + MultipleMaster
+      + Helm
    + Distributed systems
       + What are distributed systems?
       + Testing distributed systems.
@@ -88,34 +114,6 @@
       + Request / Reply vs Pub / Sub
       + Transactions
       + mapReduce
-   + Docker
-   + Kubernetes
-      + K8s
-         + SSL on k8s
-         + Node
-         + ConfigMap
-         + Cluster
-         + Pod
-         + Master
-         + MultipleMaster
-      + Helm
-   + Lifecycle
-      + Agile
-   + Data structures & algorithms
-      + FIFO n LIFO
-      + Stackoverflow
-      + Tail recursive n!
-      + REPL (?)
-      + Memory leaks
-      + PRNG
-      + Garbage collection
-      + Sorting huge files
-      + Simple web server
-      + Graph
-         + Tree
-         + BFS
-         + DFS
-         + Dijkstra’s
    + Software Architecture
       + No cache
       + Event driven
@@ -126,11 +124,11 @@
       + CPUs
       + Pub/Sub
       + Vendor lock-in
-   + Service oriented architecture
-      + Long lived transactions
-      + SOA and Microservices
-      + Too micro
-      + Microservice architecture
+      + Service oriented architecture
+         + Long lived transactions
+         + SOA and Microservices
+         + Too micro
+         + Microservice architecture
    + Security
       + Don’t invent Cryptography
       + 2-FA
@@ -141,8 +139,8 @@
       + HTTPs
       + MITM
       + Stealing sessions
-   + General
+   + Agile
+   + Others
       + TCP sockets
       + Real time communication
-
 
