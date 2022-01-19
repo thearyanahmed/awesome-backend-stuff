@@ -85,4 +85,8 @@ docker tag thearyanahmed_local_app:v3 thearyanahmed/hello-world:v4
 // push 
 docker push username/repo:version
 docker push thearyanahmed/hello-world:v4
+
+// push to remote repo like ecr
+docker push aws_account_id.dkr.ecr.region.amazonaws.com/my-repository:tag
+docker push aws_account_id.dkr.ecr.region.amazonaws.com/thearyanahmed_web_app:v5
 ```
