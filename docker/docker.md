@@ -72,7 +72,8 @@ docker exec [options] CONTAINER COMMAND
 docker exec app_web_1 tail logs/development.log
 docker exec -t -i app_web_1 rails c
 
-
+// network
+docker network inspect -v
 docker network ls
 docker pull thearyanahmed_docker_app:1.0
 
